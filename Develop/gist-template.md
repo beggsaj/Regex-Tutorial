@@ -32,12 +32,12 @@ Do not match any character, they match a position before, after, or between char
 
 Quantifiers dictate how many times a character, group, or character class will occur.
 
-* - Match zero or more times.
-+ - Match one or more times.
-? - Match zero or one time.
-{ n } - Match exactly n times.
-{ n ,} - Match at least n times.
-{ n , m } - Match from n to m times.
+* Match zero or more times.
++ Match one or more times.
+? Match zero or one time.
+{ n } Match exactly n times.
+{ n ,} Match at least n times.
+{ n , m } Match from n to m times.
 
 ### OR Operator
 
