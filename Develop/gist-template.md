@@ -61,7 +61,15 @@ y	- Perform a "sticky" search that matches starting at the current position in t
 
 ### Grouping and Capturing
 
+( )
+
+Parentheses are used to group a match to a segment of the search text. This allows you to treat a group as one unit. 
+
 ### Bracket Expressions
+
+[ ]
+
+These are used to show which set of charaters to match to. The first character needs to begin with a letter in order to match.
 
 ### Greedy and Lazy Match
 
