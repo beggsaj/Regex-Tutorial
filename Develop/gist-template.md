@@ -45,6 +45,10 @@ Quantifiers dictate how many times a character, group, or character class will o
 
 ### Character Classes
 
+To search a character string for a set or class of characters you can use a character class or character set. Place the search set between brackets.
+
+### Flags
+
 Optional flags allow you to tailor the search output. 
 
 d	- Generate indices for substring matches.  	 
@@ -54,9 +58,6 @@ m	- Multi-line search.
 s	- Allows . to match newline characters.	  
 u	- "unicode"; treat a pattern as a sequence of unicode code points.	  
 y	- Perform a "sticky" search that matches starting at the current position in the target string. See sticky.  
-
-
-### Flags
 
 ### Grouping and Capturing
 
