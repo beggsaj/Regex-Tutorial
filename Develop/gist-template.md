@@ -41,7 +41,20 @@ Quantifiers dictate how many times a character, group, or character class will o
 
 ### OR Operator
 
+| - this allows you to match different options on either side of it. 
+
 ### Character Classes
+
+Optional flags allow you to tailor the search output. 
+
+d	- Generate indices for substring matches.  	 
+g	- Global search.  
+i - Case-insensitive search.	  
+m	- Multi-line search.	  
+s	- Allows . to match newline characters.	  
+u	- "unicode"; treat a pattern as a sequence of unicode code points.	  
+y	- Perform a "sticky" search that matches starting at the current position in the target string. See sticky.  
+
 
 ### Flags
 
