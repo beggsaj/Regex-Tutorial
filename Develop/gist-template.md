@@ -26,7 +26,18 @@ These are the characters that have special meaning in regex: ., +, *, ?, ^, $, (
 
 ### Anchors
 
+Do not match any character, they match a position before, after, or between characters. They are used to “anchor” the regex match at a certain position. This makes it so that there are no extra characters after the end like a space or a new line character that could result from human error.
+
 ### Quantifiers
+
+Quantifiers dictate how many times a character, group, or character class will occur.
+
+* - Match zero or more times.
++ - Match one or more times.
+? - Match zero or one time.
+{ n } - Match exactly n times.
+{ n ,} - Match at least n times.
+{ n , m } - Match from n to m times.
 
 ### OR Operator
 
